@@ -9,3 +9,7 @@ Matlab is an Object-Oriented Programming Language which has faster computational
 - Standish, T. A. (1980). Data structure techniques. Addison-Wesley Longman Publishing Co., Inc.
 
 An Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
+
+# How to Cite a Website
+
+See: https://github.com/christiskatsouris/Network-Analysis-R/blob/main/README.md 
