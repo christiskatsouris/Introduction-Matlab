@@ -30,7 +30,7 @@ An Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/
 # References
 
 - Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
-
+- Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
 
 # How to Cite a Website
 
