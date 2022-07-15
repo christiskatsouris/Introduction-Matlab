@@ -12,4 +12,4 @@ An Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/
 
 # How to Cite a Website
 
-See: https://github.com/christiskatsouris/Network-Analysis-R/blob/main/README.md 
+See: https://www.mendeley.com/guides/web-citation-guide/
