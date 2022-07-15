@@ -10,6 +10,16 @@ Matlab is an Object-Oriented Programming Language which has faster computational
 
 An Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
 
+# Preliminary Examples
+
+
+
+
+# References
+
+- Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
+
+
 # How to Cite a Website
 
 See: https://www.mendeley.com/guides/web-citation-guide/
