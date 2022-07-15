@@ -3,4 +3,4 @@ Teaching Page
 
 # Into
 
-Matlab is an Object-Oriented Programming Language which with faster computational capabilities than other Statistical Software.  
+Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software.  
