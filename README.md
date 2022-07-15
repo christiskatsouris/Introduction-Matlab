@@ -8,4 +8,4 @@ Matlab is an Object-Oriented Programming Language which has faster computational
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 - Standish, T. A. (1980). Data structure techniques. Addison-Wesley Longman Publishing Co., Inc.
 
-For an Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
+An Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
