@@ -1,7 +1,7 @@
 # Induction-Matlab
 Teaching Page
 
-# Into
+# Introduction
 
 Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts from about 50 years ago. Two seminal references are: 
 
@@ -10,10 +10,22 @@ Matlab is an Object-Oriented Programming Language which has faster computational
 
 An Introduction to Matlab can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
 
-# Preliminary Examples
+# Illustrative Examples
 
 
 
+
+
+
+# Programming in Matlab using functions and programms
+
+
+
+
+
+
+
+# Concluding Remarks
 
 # References
 
