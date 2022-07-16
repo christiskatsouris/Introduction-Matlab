@@ -10,6 +10,10 @@ Matlab is an Object-Oriented Programming Language which has faster computational
 
 An Introduction to Matlab Programming can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
 
+
+# Logical Operations and Syntax
+
+
 # Illustrative Examples
 
 
