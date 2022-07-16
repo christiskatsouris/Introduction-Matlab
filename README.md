@@ -51,6 +51,15 @@ elseif (condition3)
 else 
  statementsE
 
+```
+
+### The while loop
+
+```Matlab
+
+while (condition)
+  statements 
+end
 
 ```
 
