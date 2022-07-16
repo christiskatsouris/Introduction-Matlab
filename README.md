@@ -63,6 +63,9 @@ end
 
 ```
 
+## Example 1
+
+Suppose we have invested some money in  fund which pays 5% (compound) interest per year, and we would like to know how long it takes for the value of the investment to double. 
 
 
 
