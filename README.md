@@ -14,6 +14,17 @@ An Introduction to Matlab Programming can be found [here](https://uk.mathworks.c
 # Logical Operations and Syntax
 
 
+### The for loop
+
+A simple form of such a loop is 
+
+```Matlab
+1
+
+
+```
+
+
 # Illustrative Examples
 
 
