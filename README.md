@@ -72,6 +72,11 @@ else
 # Concluding Remarks
 
 
+## References
+
+- Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
+- Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
+
 
 # Appendix: Some useful MATLAB commands
 
@@ -79,10 +84,11 @@ else
 
 
 
-# References
 
-- Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
-- Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
+
+# Reading List
+
+Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
 
 
 # How to Cite a Website
