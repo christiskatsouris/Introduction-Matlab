@@ -44,6 +44,14 @@ end
 
 # Concluding Remarks
 
+
+
+# Appendix: Some useful MATLAB commands
+
+
+
+
+
 # References
 
 - Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
