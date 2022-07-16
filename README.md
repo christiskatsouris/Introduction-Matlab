@@ -67,6 +67,7 @@ end
 
 Suppose we have invested some money in  fund which pays 5% (compound) interest per year, and we would like to know how long it takes for the value of the investment to double. 
 
+In practise this example demonstrates the main difference of the functionality of the for loop versus the while loop for looping purposes. 
 
 
 
