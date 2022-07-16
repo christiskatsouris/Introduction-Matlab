@@ -1,5 +1,5 @@
 # Induction-Matlab
-Teaching Page
+Teaching Page (Drafted July 2022).
 
 # Introduction
 
@@ -38,6 +38,21 @@ end
 
 ```
 
+A more general form is
+
+```Matlab
+
+if (condition1)
+  statementsA
+elseif (condition2)
+  statementsB
+elseif (condition3)
+  ...
+else 
+ statementsE
+
+
+```
 
 # Illustrative Examples
 
