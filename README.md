@@ -110,6 +110,13 @@ The proposed Course Syllabus is currently under development and has not been off
 
 Any errors or omissions are the responsibility of the author.
 
+# Acknowledgements
+
+The author has benefited by participating in workshops and training sessions related to High Performance Computing both at the University of Southampton as well as at University College London (UCL).
+
+Furthermore the author has benefited from the class of [Prof. Robert Scheichl](https://katana.iwr.uni-heidelberg.de/people/rob/) while an undergraduate student at the Department of Mathematical Sciences of the University of Bath. 
+
+
 # How to Cite a Website
 
 See: https://www.mendeley.com/guides/web-citation-guide/
