@@ -88,7 +88,9 @@ else
 
 # Reading List
 
-Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
+[1] Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
+
+[2] Kharab, A., & Guenther, R. (2018). An Introduction to Numerical Methods: A MATLAB® Approach. CRC press.
 
 
 # How to Cite a Website
