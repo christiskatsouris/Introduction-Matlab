@@ -63,7 +63,13 @@ end
 
 ```
 
-# Illustrative Examples
+
+
+
+
+
+
+# Optimization and Estimation Examples
 
 
 
