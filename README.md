@@ -26,6 +26,18 @@ end
 
 ```
 
+### The if-elseif-else statement
+
+A simple form of the if statement is 
+
+```Matlab
+
+if (condition)
+  statements 
+end
+
+```
+
 
 # Illustrative Examples
 
