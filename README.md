@@ -19,8 +19,10 @@ An Introduction to Matlab Programming can be found [here](https://uk.mathworks.c
 A simple form of such a loop is 
 
 ```Matlab
-1
 
+for index = 1:n
+  statements 
+end
 
 ```
 
