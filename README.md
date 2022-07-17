@@ -79,7 +79,7 @@ Remark: In practise this example demonstrates the main difference of the functio
 %script tutorial.m
 
 format bank 
-invest = ('type initial investmentL  ')
+invest = ('type initial investment:  ')
 
 r    = 0.05;
 bal  = invest;
