@@ -136,6 +136,8 @@ end
 
 [2] Kharab, A., & Guenther, R. (2018). An Introduction to Numerical Methods: A MATLAB® Approach. CRC press.
 
+[3] Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
+
 ## Greek Bibliography:
 
 Γεωργίου, Γ., and Χ. Ξενοφώντος. "Εισαγωγή στο MATLAB." Τμήμα Μαθηματικών και Στατιστικής του Πανεπιστημίου της Κύπρου, Σημειώσεις Εαρινού Εξαμήνου 2007, σελ. 1 306 (2007).
