@@ -100,9 +100,27 @@ end
 
 # Optimization and Estimation Examples
 
+### Cholesky Decomposition 
 
+```Matlab
 
+>> A = [2, -1, 0; -1,2,-1; 0, -1, 2 ]
 
+A =
+
+     2    -1     0
+    -1     2    -1
+     0    -1     2
+
+>> chol(A)
+
+ans =
+
+    1.4142   -0.7071         0
+         0    1.2247   -0.8165
+         0         0    1.1547
+
+```
 
 
 # Programming in Matlab using functions and programms
