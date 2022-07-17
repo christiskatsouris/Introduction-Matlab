@@ -151,7 +151,7 @@ function[x] = gaussel(A,b)
 
 # 3. Programming in Matlab using functions and programms
 
-
+Constructing a function (i.e., a small program) in Matlab allow us to construct our coding procedure more efficiently. Furthermore, calling functions in the main workflow is a good programming practice and permits to break-down the procedure into various estimation steps.  
 
 
 
@@ -166,13 +166,23 @@ function[x] = gaussel(A,b)
 - Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
 
 
-# Appendix: Some useful MATLAB commands
+# Appendix: Parallelism in Matlab
 
 
+```Matlab
 
+matlabpool('open',8);
+tic
+start = tic;
+clear A
+parfor i = 1:100000;
+        A(i) = i;
+end
+stop = toc(start);
+stop
+matlabpool('close');
 
-
-
+```
 
 # Reading List
 
