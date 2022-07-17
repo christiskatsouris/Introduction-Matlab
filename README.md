@@ -73,8 +73,29 @@ Suppose we have invested some money in  fund which pays 5% (compound) interest p
 
 Remark: In practise this example demonstrates the main difference of the functionality of the 'for' loop versus the 'while' loop for looping purposes. In particular for the above calculation we need to obtain a statement of the account for each year until the balance is doubled. Therefore, we cannot use a 'for' loop in this case, because we do not know beforehand how long this will take, so we cannot assign a value for the number of iterations on entering the loop. Thus, we should use a 'while' loop. 
 
+```Matlab
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%script tutorial.m
 
+format bank 
+invest = ('type initial investmentL  ')
+
+r    = 0.05;
+bal  = invest;
+year = 0;
+disp('         Year        Balance')
+
+while (bal < 2 * invest)
+
+  bal   = bal + 2*ball;
+  year  = year + 1;
+  disp([year,bal])
+  
+end  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+```
 
 
 # Optimization and Estimation Examples
