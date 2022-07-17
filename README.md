@@ -3,7 +3,7 @@ Teaching Page (Drafted July 2022).
 
 TIP: Learn, Unlearn & Relearn.
 
-# Preliminary
+# 1. Preliminary
 
 Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts from about 50 years ago. Two seminal references are: 
 
@@ -15,7 +15,7 @@ In summary the main idea is to aim to produce clean coding procedures and reprod
 An Introduction to Matlab Programming can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
 
 
-# Loops and Logical Branching (Syntax)
+# 1.1. Loops and Logical Branching (Syntax)
 
 
 ### The for loop
@@ -98,7 +98,7 @@ end
 ```
 
 
-# Optimization and Estimation Examples
+# 2. Optimization and Estimation Examples
 
 ### Cholesky Decomposition 
 
@@ -123,7 +123,7 @@ ans =
 ```
 
 
-# Programming in Matlab using functions and programms
+# 3. Programming in Matlab using functions and programms
 
 
 
@@ -131,7 +131,7 @@ ans =
 
 
 
-# Concluding Remarks
+# 4. Concluding Remarks
 
 
 ## References
