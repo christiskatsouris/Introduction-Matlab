@@ -144,8 +144,6 @@ function[x] = gaussel(A,b)
      x(j) = ( b(j) - A(j,j+1:N)*x(j+1:N) ) / A(j,j);
   end
   
-end
-
 >> gassel(A,b)
 
 ```
