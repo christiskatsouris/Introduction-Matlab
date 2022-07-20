@@ -202,7 +202,7 @@ end
 
 # 4. Concluding Remarks
 
-Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, numerical analysis and other. There are plethora of resources for learning how to program in Matlab. 
+Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, numerical analysis and other. There are plethora of resources for learning programming with Matlab as well as various computational problems worth checking their Matlab implementation or coding your own procedure. 
 
 
 ## References
