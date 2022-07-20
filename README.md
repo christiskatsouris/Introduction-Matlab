@@ -3,7 +3,7 @@ Teaching Page (Drafted July 2022).
 
 TIP: Learn, Unlearn & Relearn.
 
-# 1. Preliminary
+# 1. Background 
 
 Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts from about 50 years ago. Two seminal references are: 
 
