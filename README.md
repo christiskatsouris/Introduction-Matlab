@@ -301,7 +301,7 @@ matlabpool('close');
 
 # Reading List
 
-On Econometric Theory Applications and Theory: 
+On Econometric Theory and Applications: 
 
 [1] Davidson, R., & MacKinnon, J. G. (2004). Econometric theory and methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
 
