@@ -3,6 +3,8 @@ Teaching Page (Drafted July 2022).
 
 TIP: Learn, Unlearn & Relearn.
 
+An interesting article from the World Economic Forum: [Why learning to unlearn prepares us for transformative change](https://www.weforum.org/agenda/2022/02/learning-to-unlearn-exponetially/).
+
 # 1. Basics of Matlab
 
 Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts from about 50 years ago. Two seminal references are: 
