@@ -323,12 +323,12 @@ parfor r = 1:Rep  % Loop over MC replications (columns first)
            
         end
 
-        % Store the bootstrapped test statistic 
+        % Store the bootstrapped test statistic Tn 
        
            [BOOTSTRAPPED TEST STATISTIC GOES HERE]
        
        %%%%%%%%%%%%%%%%%%%%%%%% Record Rejection %%%%%%%%%%%%%%%%%%%%%%%%%
-       Rej(j,r) = (Stat > quantile(BStats,1-alpha));     
+       Rej(j,r) = ( test_statistic > quantile(BStats,1-alpha));     
     end
 end
         
