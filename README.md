@@ -121,7 +121,7 @@ c = DGP(3,:);
 
 ```
 
-# 2. Optimization and Estimation Examples
+# 2. Numerical Analysis/Optimization Examples
 
 ### Cholesky Decomposition 
 
@@ -335,6 +335,16 @@ end
 %%%%%%%%%%%%% Compute the Empirical Reject Rates %%%%%%%%%%%%%%%%%
 Rej = mean(Rej,2);    
         
+```
+
+## 3.3. Econometric Model Fitting and Estimation Examples 
+
+```Matlab
+
+
+
+
+
 
 ```
 
