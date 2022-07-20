@@ -153,9 +153,48 @@ function[x] = gaussel(A,b)
 
 Constructing a function (i.e., a small program) in Matlab allow us to organise our coding procedure more efficiently. Furthermore, 'calling' functions in the main workflow is a good programming practice and permits to break-down a procedure into various estimation steps. Below we present an example of using a function to obtain the parameter estimates based on a quantile regression model.    
 
+```Matlab
 
+function beta = quantile_regression(y,x,k)
 
+    [xn,xm] = size(x);
 
+    x = [ones(xn,1) x];
+    xm = xm + 1;
+    xs = x;
+
+    beta = ones(xm,1);
+
+    diff = 1;
+    iter = 0;
+
+    while ((diff > 1e-6) && (iter < 1000))
+        xst = xs';
+        beta_0 = beta;
+
+        beta = ((xst * x) \ xst) * y;
+
+        rsd = y - (x * beta);
+        rsd(abs(rsd) < 0.000001) = 0.000001;
+        rsd(rsd < 0) = k * rsd(rsd < 0);
+        rsd(rsd > 0) = (1 - k) * rsd(rsd > 0);
+        rsd = abs(rsd);
+
+        z = zeros(xn,xm);
+
+        for i = 1:xm 
+            z(:,i) = x(:,i) ./ rsd;
+        end
+
+        xs = z;
+        beta_1 = beta;
+        
+        diff = max(abs(beta_1 - beta_0));
+        iter = iter + 1;
+    end
+end
+
+```
 
 # 4. Concluding Remarks
 
