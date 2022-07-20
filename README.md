@@ -75,6 +75,8 @@ Remark: In practise this example demonstrates the main difference of the functio
 
 ```Matlab
 
+% Example: Financial Calculations 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %script tutorial.m
 
