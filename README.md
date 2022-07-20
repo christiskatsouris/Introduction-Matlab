@@ -173,6 +173,11 @@ function[x] = gaussel(A,b)
 
 ```
 
+## Further Reading
+
+- Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
+- Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
+
 
 # 3. Programming in Matlab using functions 
 
@@ -357,13 +362,6 @@ Rej = mean(Rej,2);
 # 4. Concluding Remarks
 
 Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, numerical analysis and other. There are plethora of resources for learning programming with Matlab as well as various computational problems worth checking their Matlab implementation or coding your own procedure. 
-
-
-## References
-
-- Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
-- Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
-
 
 # Appendix: Parallelism in Matlab
 
