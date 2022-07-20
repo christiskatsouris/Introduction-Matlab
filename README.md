@@ -348,6 +348,8 @@ Rej = mean(Rej,2);
 
 ## Example 5
 
+The threshold regression model is commonly employed when modelling regime-specific dynamics based on economic data. However, the implementation of the model requires to estimate the unknown threshold variable. 
+
 
 
 ```Matlab
