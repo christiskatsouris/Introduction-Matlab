@@ -286,6 +286,9 @@ U = randn(N,1);
 
 ```
 
+Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the empirical study. 
+
+
 # 4. Concluding Remarks
 
 Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, numerical analysis and other. There are plethora of resources for learning programming with Matlab as well as various computational problems worth checking their Matlab implementation or coding your own procedure. 
