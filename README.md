@@ -186,6 +186,18 @@ ave =
 
 ## Example 2
 
+A helpful programming practice to identify mistakes with either the coding procedure or with the use of parameters which are not allowed by definition when executing the program is to use output messages such as below. 
+
+```Matlab
+
+ if mod( i_sim,100 ) == 0
+        disp([label ', pseudo, i_sim = ' num2str(i_sim)])
+    end
+
+```
+
+## Example 3
+
 Consider constructing a function that obtains the parameter estimates from a quantile regression model.    
 
 ```Matlab
