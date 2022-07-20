@@ -178,7 +178,7 @@ function[x] = gaussel(A,b)
 
 Constructing a function (i.e., a small program) in Matlab allow us to organise our coding procedure more efficiently. Furthermore, 'calling' functions in the main workflow is a good programming practice and permits to break-down a procedure into various estimation steps. 
 
-## Syntax
+##  3.1. Syntax
 
 For the Syntax see: https://uk.mathworks.com/help/matlab/ref/function.html 
 
@@ -267,6 +267,22 @@ end % end-of-function
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % References: Matlab Package 'SystemicRisk' and R package 'quantreg'. 
+
+```
+
+##  3.2. Simulation Experiments Examples
+
+```Matlab
+
+% Choose substreams for reproducibility
+set(stream,'Substream',r);
+RandStream.setGlobalStream(stream);
+
+% Simulate a regressor Z such that 
+Z = 1 + beta*normcdf( randn(N,1) );  
+
+% Simulate an error sequence
+U = randn(N,1); 
 
 ```
 
