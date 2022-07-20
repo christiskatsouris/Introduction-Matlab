@@ -153,7 +153,7 @@ function[x] = gaussel(A,b)
 
 # 3. Programming in Matlab using functions 
 
-Constructing a function (i.e., a small program) in Matlab allow us to organise our coding procedure more efficiently. Furthermore, 'calling' functions in the main workflow is a good programming practice and permits to break-down a procedure into various estimation steps. Below we present an example of using a function to obtain the parameter estimates based on a quantile regression model.    
+Constructing a function (i.e., a small program) in Matlab allow us to organise our coding procedure more efficiently. Furthermore, 'calling' functions in the main workflow is a good programming practice and permits to break-down a procedure into various estimation steps. 
 
 ## Syntax
 
@@ -185,6 +185,8 @@ ave =
 ```
 
 ## Example 2
+
+Consider constructing a function that obtains the parameter estimates from a quantile regression model.    
 
 ```Matlab
 
