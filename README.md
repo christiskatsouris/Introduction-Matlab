@@ -301,6 +301,16 @@ matlabpool('close');
 
 # Reading List
 
+On Econometric Theory Applications and Theory: 
+
+[1] Davidson, R., & MacKinnon, J. G. (2004). Econometric theory and methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
+
+[2] Davidson, J. (2000).Econometric theory. Blackwell Publishing.
+
+
+
+On Matrix Algebra and Numerical Methods: 
+
 [1] Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
 
 [2] Kharab, A., & Guenther, R. (2018). An Introduction to Numerical Methods: A MATLAB® Approach. CRC press.
