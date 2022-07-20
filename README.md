@@ -326,13 +326,13 @@ parfor r = 1:Rep  % Loop over MC replications (columns first)
         % The calcuation of the bootsrap test statistic goes here!  
         for i=1:Boot
            
-           [BOOTSTRAP PROCEDURE GOES HERE]
+           %%%[BOOTSTRAP PROCEDURE GOES HERE]%%%
            
         end
 
         % Store the bootstrapped test statistic Tn 
        
-           [BOOTSTRAPPED TEST STATISTIC GOES HERE]
+          %%%[BOOTSTRAPPED TEST STATISTIC GOES HERE]%%%
        
        %%%%%%%%%%%%%%%%%%%%%%%% Record Rejection %%%%%%%%%%%%%%%%%%%%%%%%%
        Rej(j,r) = ( test_statistic > quantile(BStats,1-alpha));     
@@ -354,12 +354,63 @@ The threshold regression model is commonly employed when modelling regime-specif
 
 ```Matlab
 
+% Reference: Factor Augmented Regression with Threshold Effects 
 
+n=length(dat(:,1));
+q=dat(:,qi);
+x_n=[1 dat(n,xi)];
+q_n=dat(n,qi);
+dat(n-3:n,:)=[];
+q(n-3:n,:)=[];
+n=length(dat(:,1));
+%% Sorted index of q %
+qs=0;
 
+for i=1:length(q)
+    for i_=1:length(q)
+        temp=0;
+        for j=1:length(q)
+            if (q(i_)>q(j))|(i_>=j&q(i_)==q(j))
+                temp=temp+1;
+            end;
+        end;
+        if temp==i
+            qs=[qs;i_];
+        end;
+    end;
+end;
+qs=qs(2:length(qs));
+q=q(qs);
 
+y=dat(qs,yi);
+x=[ones(n,1),dat(qs,xi)];
+%x=dat(qs,xi);
+xstar=[x x.*(q<=gamma_0)];
+s_gamma0=y'*y-y'*xstar*inv(xstar'*xstar)*xstar'*y;
 
+k=length(x(1,:));  
+% yname=names(yi,:);
+% qname=names(qi,:);
+% xname=['Constant';names(xi,:)];
+mi=inv(x'*x);
+beta=mi*(x'*y);
+e=y-x*beta;
+ee=e'*e;       % SSR
+sig=ee/(n-k);
+xe=x.*(e*ones(1,length(x(1,:))));
+if h==0
+    se=sqrt(diag(mi)*sig);
+else
+    se=sqrt(diag(mi*xe'*xe*mi));
+end;
+vy=sum((y-mean(y)').*(y-mean(y)'))';
+r_2=1-ee/vy;  
 
 ```
+
+### Task 
+
+Run the above coding procedure step-by-step making sure you store the output from Matlab. 
 
 # 4. Concluding Remarks
 
