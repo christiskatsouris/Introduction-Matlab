@@ -286,8 +286,57 @@ U = randn(N,1);
 
 ```
 
-Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the empirical study. 
+Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
 
+```Matlab
+
+parfor r = 1:Rep  % Loop over MC replications (columns first)
+
+   % Define the matrices to store the data
+   Tn_matrix = Tn(:,1:end);              
+
+   for j = 1:D   % Loop over designs where D = {1,2,3} 
+        %%%%%%%%%%%%%%%%%%%%%% Compute the Statistic %%%%%%%%%%%%%%%%%%%%%%
+        % Generate the outcome for the current DGP
+        Y = a(j)*Z - b(j)*normpdf(c(j)*Z) + U; 
+    
+        % Next based on some econometric method, estimate the test statistic Tn 
+        %%%%%%%%%%%%%%%%
+        % Example below: 
+        %%%%%%%%%%%%%%%%
+    
+        % Coefficient
+        Hatbeta  = Hn\Y;   
+        Hattheta = X*Hatbeta;     % Unconstrained estimator
+        HatU = Y - Hn*Hatbeta;    % Residuals 
+
+        % Compute the test statistic 
+        % The calcuation of the test statistic goes here!  
+ 
+        %%%%%%%%%%%%% Obtain Critical Value through Bootstrap %%%%%%%%%%%%%
+        BootW = randn(N,Boot);  % Bootstrap weights 
+
+        % The calcuation of the bootsrap test statistic goes here!  
+        for i=1:Boot
+           
+           [BOOTSTRAP PROCEDURE GOES HERE]
+           
+        end
+
+        % Store the bootstrapped test statistic 
+       
+           [BOOTSTRAPPED TEST STATISTIC GOES HERE]
+       
+       %%%%%%%%%%%%%%%%%%%%%%%% Record Rejection %%%%%%%%%%%%%%%%%%%%%%%%%
+       Rej(j,r) = (Stat > quantile(BStats,1-alpha));     
+    end
+end
+        
+%%%%%%%%%%%%% Compute the Empirical Reject Rates %%%%%%%%%%%%%%%%%
+Rej = mean(Rej,2);    
+        
+
+```
 
 # 4. Concluding Remarks
 
@@ -327,7 +376,6 @@ On Econometric Theory and Applications:
 [2] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
 
 
-
 On Matrix Algebra and Numerical Methods: 
 
 [1] Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
@@ -358,3 +406,5 @@ Further mathematical/theoretical applications related to Numerical Analysis, Sci
 # How to Cite a Website
 
 See: https://www.mendeley.com/guides/web-citation-guide/
+
+# Thank you!
