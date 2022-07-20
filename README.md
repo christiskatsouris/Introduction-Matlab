@@ -10,7 +10,7 @@ Matlab is an Object-Oriented Programming Language which has faster computational
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 - Standish, T. A. (1980). Data structure techniques. Addison-Wesley Longman Publishing Co., Inc.
 
-In summary the main idea is to aim to produce clean coding procedures and reproducible Matlab Scripts. This can be helpful when reviewing your code in order to identify bugs. Furthermore, this can be extremely helpful when colloborating on projects with others.  
+In summary the main idea behind this is to aim to produce clean coding procedures and reproducible Matlab Scripts. This can be especially helpful when reviewing your code as well as when developing MATLAB code to implement simuation studies (such as Monte Carlo simulation experiments, bootstrap resampling methods etc) or other statistical algorithms with high computational/execution time. Furthermore, this can be extremely helpful when colloborating on projects with others.  
 
 An Introduction to Matlab Programming can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html).  
 
