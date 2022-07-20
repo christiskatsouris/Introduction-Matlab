@@ -303,9 +303,9 @@ matlabpool('close');
 
 On Econometric Theory and Applications: 
 
-[1] Davidson, R., & MacKinnon, J. G. (2004). Econometric theory and methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
+[1] Davidson, R., & MacKinnon, J. G. (2004). Econometric Theory and Methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
 
-[2] Davidson, J. (2000).Econometric theory. Blackwell Publishing.
+[2] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
 
 
 
