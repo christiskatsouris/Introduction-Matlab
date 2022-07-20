@@ -189,7 +189,7 @@ function [y1,...,yN] = myfun(x1,...,xM)
 % function [y1,...,yN] = myfun(x1,...,xM) declares a function named myfun 
 % that  accepts inputs x1,...,xM and returns outputs y1,...,yN. 
 % This declaration statement must be the first executable line of the function. 
-% Valid function names begin with an alphabetic character, and can contain letters, numbers, or underscores.
+% Valid function names begin with an alphabetic character and can contain letters, numbers, or underscores.
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 %% Example 
