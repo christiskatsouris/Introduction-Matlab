@@ -101,6 +101,25 @@ end
 
 ```
 
+# 1.2. Using Matrices and Vectors
+
+In cases that the coding procedure has several replications, for instance in Monte Carlo simulation studies or when applying bootstrap resampling methods, the initial step is to initialize the vector and matrices to store the results of the simulation design under examination. 
+
+```Matlab
+
+H0 = [0, 0.1, 0.5;  % The null configurations
+      0, 0.5, 2;
+      0, 0.5, 1];
+
+H1 = [a;b;c];    
+
+DGP = [H0, H1];     % The full configurations
+D = size(DGP,2);
+a = DGP(1,:);
+b = DGP(2,:);
+c = DGP(3,:);
+
+```
 
 # 2. Optimization and Estimation Examples
 
