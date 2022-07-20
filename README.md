@@ -157,15 +157,33 @@ Constructing a function (i.e., a small program) in Matlab allow us to organise o
 
 ## Syntax
 
+For the Syntax see: https://uk.mathworks.com/help/matlab/ref/function.html 
 
+```Matlab
 
+function [y1,...,yN] = myfun(x1,...,xM)
 
-## Example 
+%function [y1,...,yN] = myfun(x1,...,xM) declares a function named myfun that accepts inputs x1,...,xM and returns outputs y1,...,yN. This declaration statement must be the first executable line of the function. Valid function names begin with an alphabetic character, and can contain letters, numbers, or underscores.
+
+%% Example: 
+
+function ave = average(x)
+    ave = sum(x(:))/numel(x); 
+end
+
+z = 1:99;
+ave = average(z)
+
+ave =
+    50
+
+```
+
+## Example 2
 
 ```Matlab
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function beta = quantile_regression(y,x,k)
 
     [xn,xm] = size(x);
@@ -203,8 +221,7 @@ function beta = quantile_regression(y,x,k)
         diff = max(abs(beta_1 - beta_0));
         iter = iter + 1;
     end
-end
-
+end % end-of-function
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % References: Matlab Package 'SystemicRisk' and R package 'quantreg'. 
