@@ -146,6 +146,8 @@ function[x] = gaussel(A,b)
   
 >> gassel(A,b)
 
+% Reference: Γεωργίου and Ξενοφώντος (2007).
+
 ```
 
 
@@ -193,6 +195,8 @@ function beta = quantile_regression(y,x,k)
         iter = iter + 1;
     end
 end
+
+% References: Matlab Package 'SystemicRisk' and R package 'quantreg'. 
 
 ```
 
