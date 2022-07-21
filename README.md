@@ -78,7 +78,6 @@ Remark: In practise this example demonstrates the main difference of the functio
 ```Matlab
 
 % Example: Financial Calculations 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %script tutorial.m
 
@@ -364,7 +363,6 @@ n=length(dat(:,1));
 %% Sorted index of q %
 qs=0;
 
-
 ```
 
 The second step is the econometric identification of the threshold variable.  
@@ -372,7 +370,6 @@ The second step is the econometric identification of the threshold variable.
 ```Matlab
 
 % Reference: Factor Augmented Regression with Threshold Effects 
-
 
 for i=1:length(q)
     for i_=1:length(q)
@@ -390,22 +387,19 @@ end;
 qs=qs(2:length(qs));
 q=q(qs);
 
-y=dat(qs,yi);
-x=[ones(n,1),dat(qs,xi)];
-%x=dat(qs,xi);
-xstar=[x x.*(q<=gamma_0)];
-s_gamma0=y'*y-y'*xstar*inv(xstar'*xstar)*xstar'*y;
+y = dat(qs,yi);
+x = [ones(n,1),dat(qs,xi)];
+k = length(x(1,:));  
 
-k=length(x(1,:));  
-% yname=names(yi,:);
-% qname=names(qi,:);
-% xname=['Constant';names(xi,:)];
-mi=inv(x'*x);
-beta=mi*(x'*y);
-e=y-x*beta;
-ee=e'*e;       % SSR
-sig=ee/(n-k);
-xe=x.*(e*ones(1,length(x(1,:))));
+xstar    = [x x.*(q<=gamma_0)];
+s_gamma0 = y'*y-y'*xstar*inv(xstar'*xstar)*xstar'*y;
+
+mi   = inv(x'*x);
+beta = mi*(x'*y);
+e    = y-x*beta;
+ee   = e'*e; % SSR
+sig  = ee/(n-k);
+xe   = x.*(e*ones(1,length(x(1,:))));
 if h==0
     se=sqrt(diag(mi)*sig);
 else
@@ -421,9 +415,9 @@ r_2=1-ee/vy;
 - Yan, Y., & Cheng, T. (2022). Factor-augmented forecasting regressions with threshold effects. The Econometrics Journal, 25(1), 134-154.
 
 
-### Task 
+### Task 1
 
-Run the above coding procedure step-by-step making sure you store the output from Matlab. 
+Run the above coding procedure step-by-step making sure you store the output from Matlab to a Word processing document. 
 
 # 4. Concluding Remarks
 
