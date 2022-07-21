@@ -7,7 +7,7 @@ $\textbf{Motivation:}$ An interesting article from the [World Economic Forum](ht
 
 "...we need to question our assumptions and not mistake knowledge for wisdom. It requires that we become better listeners and open ourselves up to different points of view, however antithetical they may initially appear on the surface..."
  
-Similar principles apply when learning a new programming language or when applying the "asymptotic theory laws" you learn in an Econometric Theory class in order to derive the limit theory of statistics and estimators. Revising what you know, and building on existing acquisition of knowledge is a good practise for programming as well. 
+Similar principles apply when learning a new programming language or when applying the "asymptotic theory laws" you learn in an Econometric Theory class in order to derive the limit theory of statistics and estimators. In other words, revising what you know, and building on existing acquisition of knowledge is a good practise for programming as well. 
 
 # 1. Basics of Matlab
 
