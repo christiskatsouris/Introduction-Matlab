@@ -464,6 +464,7 @@ On Econometric Theory and Applications:
 
 [2] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
 
+[3] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of computational econometrics. John Wiley & Sons.
 
 On Matrix Algebra and Numerical Methods: 
 
