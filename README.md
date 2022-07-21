@@ -3,7 +3,7 @@ Teaching Page (Drafted July 2022).
 
 TIP: Learn, Unlearn & Relearn.
 
-- Motivation: An interesting article from the [World Economic Forum](https://www.weforum.org/) is: [Why learning to unlearn prepares us for transformative change](https://www.weforum.org/agenda/2022/02/learning-to-unlearn-exponetially/). 
+$\textbf{Motivation:}$ An interesting article from the [World Economic Forum](https://www.weforum.org/) is: [Why learning to unlearn prepares us for transformative change](https://www.weforum.org/agenda/2022/02/learning-to-unlearn-exponetially/). 
 
 "...we need to question our assumptions and not mistake knowledge for wisdom. It requires that we become better listeners and open ourselves up to different points of view, however antithetical they may initially appear on the surface..."
  
