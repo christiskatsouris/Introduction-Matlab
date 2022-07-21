@@ -340,6 +340,8 @@ end
         
 %%%%%%%%%%%%% Compute the Empirical Reject Rates %%%%%%%%%%%%%%%%%
 Rej = mean(Rej,2);    
+
+% Reference: A projection framework for testing shape restrictions that form convex cones. 
         
 ```
 
@@ -368,8 +370,6 @@ qs=0;
 The second step is the econometric identification of the threshold variable.  
 
 ```Matlab
-
-% Reference: Factor Augmented Regression with Threshold Effects 
 
 for i=1:length(q)
     for i_=1:length(q)
@@ -408,12 +408,14 @@ end;
 vy=sum((y-mean(y)').*(y-mean(y)'))';
 r_2=1-ee/vy;  
 
+% Reference: Factor Augmented Regression with Threshold Effects 
+
 ```
 
 ### References
 
+- Fang, Z., & Seo, J. (2021). A projection framework for testing shape restrictions that form convex cones. Econometrica, 89(5), 2439-2458.
 - Yan, Y., & Cheng, T. (2022). Factor-augmented forecasting regressions with threshold effects. The Econometrics Journal, 25(1), 134-154.
-
 
 ### Task 1
 
