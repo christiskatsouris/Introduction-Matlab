@@ -429,8 +429,9 @@ r_2=1-ee/vy;
 - Hsieh, Y. W., Shi, X., & Shum, M. (2022). Inference on estimators defined by mathematical programming. Journal of Econometrics, 226(2), 248-268.
 - Yan, Y., & Cheng, T. (2022). Factor-augmented forecasting regressions with threshold effects. The Econometrics Journal, 25(1), 134-154.
 - Fang, Z., & Seo, J. (2021). A projection framework for testing shape restrictions that form convex cones. Econometrica, 89(5), 2439-2458.
-- Koenker, R., & Xiao, Z. (2002). Inference on the quantile regression process. Econometrica, 70(4), 1583-1612.
 - Wei, Y., Wainwright, M. J., & Guntuboyina, A. (2019). The geometry of hypothesis testing over convex cones: Generalized likelihood ratio tests and minimax radii. The Annals of Statistics, 47(2), 994-1024.
+- Koenker, R., & Xiao, Z. (2002). Inference on the quantile regression process. Econometrica, 70(4), 1583-1612.
+- Dagenais, M. G. (1969). A threshold regression model. Econometrica: Journal of Econometric Society, 193-203.
 
 ### Task 1
 
