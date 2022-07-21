@@ -298,7 +298,7 @@ plot(U)
 
 ```
 
-By plotting the error sequence we can observe that innovation term follows the covariance stationarity condition.
+By plotting the error sequence we can observe that the disturbance term follows the covariance stationarity condition.
 
 
 ## Example 4
