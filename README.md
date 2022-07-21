@@ -438,7 +438,6 @@ r_2=1-ee/vy;
 Run the above coding procedure step-by-step making sure you store the output from Matlab to a Word processing document. 
 
 ```Matlab
-
 %% Example of output %%
 
 Z =
@@ -451,8 +450,7 @@ Z =
     1.0764
     1.2658
     1.5072
-    1.7999
-    
+    1.7999    
 ```
 
 # 4. Concluding Remarks
