@@ -443,10 +443,10 @@ r_2=1-ee/vy;
 
 ### Task 1
 
-Run the above coding procedure step-by-step making sure you store the output from Matlab to a Word processing document. 
+Run the above coding procedure step-by-step and checking the implementation of the steps required for the econometric identification of the threshold variable. Use a suitable dataset of your choice. Moreover, construct an appropriate statistical testing procedure to assess the presence of threshold effects based on an appropriate underline data generating process. Lastly, prepare the coding procedure for a small Monte Carlo simulation study in order to evaluate the empirical size performance of the testing hypothesis under examination. Notice that Matlab output should look like this: 
 
 ```Matlab
-%% Example of output %%
+%% Some examples of Matlab-code outputs %%
 
 Z =
 
