@@ -467,7 +467,9 @@ On Econometric Theory and Applications:
 
 [2] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
 
-[3] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of computational econometrics. John Wiley & Sons.
+[3] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
+
+[4] Hamilton, J. D. (1994). Time Series Analysis. Princeton University Press.
 
 On Matrix Algebra and Numerical Methods: 
 
