@@ -365,15 +365,16 @@ The first step is to define the various vectors and matrices for storing the sim
 
 ```Matlab
 
-n=length(dat(:,1));
-q=dat(:,qi);
-x_n=[1 dat(n,xi)];
-q_n=dat(n,qi);
-dat(n-3:n,:)=[];
-q(n-3:n,:)=[];
-n=length(dat(:,1));
+n   = length(dat(:,1));
+q   = dat(:,qi);
+x_n = [1 dat(n,xi)];
+q_n = dat(n,qi);
+dat(n-3:n,:) = [];
+q(n-3:n,:)   = [];
+n = length(dat(:,1));
+
 %% Sorted index of q %
-qs=0;
+qs = 0;
 
 ```
 
