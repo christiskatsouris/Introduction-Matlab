@@ -123,6 +123,14 @@ c = DGP(3,:);
 
 ```
 
+# 1.3. Importing/Reading data in Matlab
+
+```Matlab
+%% Examples
+
+
+```
+
 # 2. Numerical Analysis/Optimization Examples
 
 ### Cholesky Decomposition 
