@@ -414,8 +414,10 @@ r_2=1-ee/vy;
 
 ### References
 
-- Fang, Z., & Seo, J. (2021). A projection framework for testing shape restrictions that form convex cones. Econometrica, 89(5), 2439-2458.
+- Hsieh, Y. W., Shi, X., & Shum, M. (2022). Inference on estimators defined by mathematical programming. Journal of Econometrics, 226(2), 248-268.
 - Yan, Y., & Cheng, T. (2022). Factor-augmented forecasting regressions with threshold effects. The Econometrics Journal, 25(1), 134-154.
+- Fang, Z., & Seo, J. (2021). A projection framework for testing shape restrictions that form convex cones. Econometrica, 89(5), 2439-2458.
+- Koenker, R., & Xiao, Z. (2002). Inference on the quantile regression process. Econometrica, 70(4), 1583-1612.
 
 ### Task 1
 
