@@ -436,10 +436,11 @@ Run the above coding procedure step-by-step making sure you store the output fro
 
 # 4. Concluding Remarks
 
-Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, numerical analysis and other. There are plethora of resources for learning programming with Matlab as well as various computational problems worth checking their Matlab implementation or coding your own procedure. 
+Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, numerical analysis and other. In this teaching page we mainly focus on basic matlab operations as well as on econometric identification problems and the structure of Monte Carlo simulations. 
+
+Furthermore, there are plethora of online resources for learning programming with Matlab as well as various computational problems worth checking their Matlab implementation or coding your own procedure. 
 
 # Appendix: Parallelism in Matlab
-
 
 ```Matlab
 
