@@ -429,6 +429,7 @@ r_2=1-ee/vy;
 - Yan, Y., & Cheng, T. (2022). Factor-augmented forecasting regressions with threshold effects. The Econometrics Journal, 25(1), 134-154.
 - Fang, Z., & Seo, J. (2021). A projection framework for testing shape restrictions that form convex cones. Econometrica, 89(5), 2439-2458.
 - Koenker, R., & Xiao, Z. (2002). Inference on the quantile regression process. Econometrica, 70(4), 1583-1612.
+- Wei, Y., Wainwright, M. J., & Guntuboyina, A. (2019). The geometry of hypothesis testing over convex cones: Generalized likelihood ratio tests and minimax radii. The Annals of Statistics, 47(2), 994-1024.
 
 ### Task 1
 
