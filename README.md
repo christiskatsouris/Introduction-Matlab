@@ -284,13 +284,22 @@ end % end-of-function
 set(stream,'Substream',r);
 RandStream.setGlobalStream(stream);
 
+% Parameters
+N    = 250;
+beta = 0.8;
+
 % Simulate a regressor Z such that 
 Z = 1 + beta*normcdf( randn(N,1) );  
 
 % Simulate an error sequence
 U = randn(N,1); 
 
+plot(U)
+
 ```
+
+For instance, by plotting the error sequence we can observe that innovation term follows the covariance stationarity condition.
+
 
 ## Example 4
 
