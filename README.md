@@ -350,11 +350,9 @@ Rej = mean(Rej,2);
 
 The threshold regression model is commonly employed when modelling regime-specific dynamics based on economic data. However, the implementation of the model requires to estimate the unknown threshold variable. 
 
-
+The first step is to define the various vectors and matrices for storing the simulated data. 
 
 ```Matlab
-
-% Reference: Factor Augmented Regression with Threshold Effects 
 
 n=length(dat(:,1));
 q=dat(:,qi);
@@ -365,6 +363,16 @@ q(n-3:n,:)=[];
 n=length(dat(:,1));
 %% Sorted index of q %
 qs=0;
+
+
+```
+
+The second step is the econometric identification of the threshold variable.  
+
+```Matlab
+
+% Reference: Factor Augmented Regression with Threshold Effects 
+
 
 for i=1:length(q)
     for i_=1:length(q)
@@ -407,6 +415,11 @@ vy=sum((y-mean(y)').*(y-mean(y)'))';
 r_2=1-ee/vy;  
 
 ```
+
+### References
+
+- Yan, Y., & Cheng, T. (2022). Factor-augmented forecasting regressions with threshold effects. The Econometrics Journal, 25(1), 134-154.
+
 
 ### Task 
 
