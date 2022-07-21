@@ -476,7 +476,7 @@ The proposed Course Syllabus is currently under development and has not been off
 
 Any errors or omissions are the responsibility of the author.
 
-Any comments or suggestions is welcome!
+Any comments or suggestions are welcome!
 
 # Acknowledgements
 
