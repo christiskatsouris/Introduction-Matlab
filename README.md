@@ -307,7 +307,7 @@ plot(U)
 
 ```
 
-By plotting the error sequence we can observe that the disturbance term follows the covariance stationarity condition.
+By plotting the error sequence we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
 
 
 ## Example 4
