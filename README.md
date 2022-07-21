@@ -341,8 +341,7 @@ end
 %%%%%%%%%%%%% Compute the Empirical Reject Rates %%%%%%%%%%%%%%%%%
 Rej = mean(Rej,2);    
 
-% Reference: A projection framework for testing shape restrictions that form convex cones. 
-        
+% Reference: A projection framework for testing shape restrictions that form convex cones.         
 ```
 
 ## 3.3. Econometric Model Fitting and Estimation Examples 
