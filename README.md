@@ -526,8 +526,6 @@ The proposed Course Syllabus is currently under development and has not been off
 
 Any errors or omissions are the responsibility of the author.
 
-Any comments or suggestions are welcome!
-
 # Acknowledgements
 
 The author has benefited by participating in workshops and training sessions related to High Performance Computing both at the University of Southampton as well as at University College London (UCL).
