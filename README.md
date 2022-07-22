@@ -515,7 +515,7 @@ On Matrix Algebra and Numerical Methods:
 
 # Historical Fact
 
-Mathematics is the language of science! Fact: $\textbf{Stephan Banach}$ is widely regarded as one of the most influential mathematicians of the 20th century. He was a Polish mainly self-taught mathematician, becoming a Professor on the 22th of July 1922 (100 years ago!) - according to Google doodle. He made major contributions to the theory of topological vector spaces, measure theory, integration, the theory of sets, orthogonal series and functional analysis. He is the author of the book: "Théorie des opérations linéaires" (Theory of Linear Operations), the first monograph on the general theory of functional analysis (see, wikipedia).    
+Mathematics is the language of science! Fact: $\textbf{Stephan Banach}$ is widely regarded as one of the most influential mathematicians of the 20th century. He was a Polish, mainly self-taught mathematician, becoming a Professor on the 22th of July 1922 (100 years ago!) - according to Google doodle. He made major contributions to the theory of topological vector spaces, measure theory, integration, the theory of sets, orthogonal series and functional analysis. He is the author of the book: "Théorie des opérations linéaires" (Theory of Linear Operations), the first monograph on the general theory of functional analysis (see, wikipedia).    
 
 
 # Disclaimer
