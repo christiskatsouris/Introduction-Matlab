@@ -513,6 +513,11 @@ On Matrix Algebra and Numerical Methods:
 Γεωργίου, Γ., and Χ. Ξενοφώντος. "Εισαγωγή στο MATLAB." Τμήμα Μαθηματικών και Στατιστικής του Πανεπιστημίου της Κύπρου, Σημειώσεις Εαρινού Εξαμήνου 2007, σελ. 1 306 (2007).
 
 
+# Historical Fact
+
+Mathematics is the language of science! Fact: $\textbf{Stephan Banach}$ is widely regarded as one of the most influential mathematicians of the 20th century? He made major contributions to the theory of topological vector spaces, measure theory, integration, the theory of sets, orthogonal series and functional analysis. On the 22th of July 1922 (100 years ago!) he became a Professor, according to Google doodles. He is the author of the book: "Theorie des Operations Lineaires".     
+
+
 # Disclaimer
 
 The author (Christis G. Katsouris) declares no conflicts of interest.
