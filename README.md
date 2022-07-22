@@ -535,9 +535,3 @@ Further mathematical/theoretical applications related to Numerical Analysis, Sci
 # How to Cite a Website
 
 See: https://www.mendeley.com/guides/web-citation-guide/
-
-# Thank you!
-
-# Contact me
-
-C.Katsouris@soton.ac.uk; christiskatsouris@gmail.com
