@@ -489,13 +489,15 @@ matlabpool('close');
 
 $\textbf{On Econometric Theory and Applications:}$ 
 
-[1] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
+$\textbf{[1]}$ Hamilton, J. D. (1994). Time Series Analysis. Princeton University Press.
 
-[2] Davidson, R., & MacKinnon, J. G. (2004). Econometric Theory and Methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
+$\textbf{[2]}$ Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
 
-[3] Hamilton, J. D. (1994). Time Series Analysis. Princeton University Press.
+$\textbf{[3]}$ Davidson, R., & MacKinnon, J. G. (2004). Econometric Theory and Methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
 
-[4] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
+$\textbf{[4]}$ Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
+
+$\textbf{[5]}$ Corbae, D., Stinchcombe, M. B., & Zeman, J. (2009). An introduction to mathematical analysis for economic theory and econometrics. Princeton University Press.
 
 $\textbf{On Matrix Algebra and Numerical Methods:}$ 
 
