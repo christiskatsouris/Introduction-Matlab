@@ -16,6 +16,7 @@ In summary the main idea behind this is to aim to produce clean coding procedure
 
 - An Introduction to Matlab Programming can be found [here](https://uk.mathworks.com/academia/courseware/introduction-to-matlab.html) and [here](https://uk.mathworks.com/help/matlab/getting-started-with-matlab.html).  
 - An Introduction to Time Series Analysis Using Matlab can be found [here](https://uk.mathworks.com/help/ident/time-series-model-identification.html?s_tid=CRUX_lftnav).
+- Financial Econometrics Using Matlab can be found [here](https://bashtage.github.io/kevinsheppard.com/teaching/matlab/mfe-matlab/).
 
 In this teaching page, we begin by reviewing the syntax of loops and logical branching which is essential when coding statistical estimation procedures. We also review key operations to handle vector and matrices as well as some simple examples from numerical analysis. Then, we explain how to create functions in Matlab and give emphasis on some important applications commonly found in econometric identification problems such as the estimation of the quantile regression model and the threshold model. Furthermore, we explain the main idea of parallelism using looping which is useful when consideraing simulation studies and bootstrap resampling methodologies. Overall, we provide some examples of the main programming aspects with Matlab.    
 
