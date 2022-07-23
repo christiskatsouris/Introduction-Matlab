@@ -487,17 +487,17 @@ matlabpool('close');
 
 # Reading List
 
-On Econometric Theory and Applications: 
+$\textbf{On Econometric Theory and Applications:}$ 
 
-[1] Davidson, R., & MacKinnon, J. G. (2004). Econometric Theory and Methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
+[1] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
 
-[2] Davidson, J. (2000). Econometric Theory. Blackwell Publishing.
+[2] Davidson, R., & MacKinnon, J. G. (2004). Econometric Theory and Methods (Vol. 5, pp. 189-196). New York: Oxford University Press.
 
-[3] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
+[3] Hamilton, J. D. (1994). Time Series Analysis. Princeton University Press.
 
-[4] Hamilton, J. D. (1994). Time Series Analysis. Princeton University Press.
+[4] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
 
-On Matrix Algebra and Numerical Methods: 
+$\textbf{On Matrix Algebra and Numerical Methods:} 
 
 [1] Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
 
