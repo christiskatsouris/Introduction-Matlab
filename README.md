@@ -501,11 +501,11 @@ $\textbf{[5]}$ Corbae, D., Stinchcombe, M. B., & Zeman, J. (2009). An introducti
 
 $\textbf{On Matrix Algebra and Numerical Methods:}$ 
 
-[1] Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
+$\textbf{[1]}$  Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
 
-[2] Kharab, A., & Guenther, R. (2018). An Introduction to Numerical Methods: A MATLAB® Approach. CRC press.
+$\textbf{[2]}$  Kharab, A., & Guenther, R. (2018). An Introduction to Numerical Methods: A MATLAB® Approach. CRC press.
 
-[3] Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
+$\textbf{[3]}$  Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
 
 ## Greek Bibliography:
 
