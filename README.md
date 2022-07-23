@@ -497,7 +497,7 @@ $\textbf{On Econometric Theory and Applications:}$
 
 [4] Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of Computational Econometrics. John Wiley & Sons.
 
-$\textbf{On Matrix Algebra and Numerical Methods:} 
+$\textbf{On Matrix Algebra and Numerical Methods:}$ 
 
 [1] Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
 
