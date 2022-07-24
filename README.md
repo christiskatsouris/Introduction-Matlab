@@ -71,6 +71,25 @@ end
 
 ```
 
+## Example 0
+
+
+```Matlab
+
+isweak = true;
+d      = 1;  % Number of endogenous regressors
+k      = 3;  % Number of instruments
+
+% True parameters
+beta = ones(d, 1);
+if isweak
+    pi = ones(k, d) / sqrt(n);
+else
+    pi = ones(k, d);
+end
+
+```
+
 ## Example 1
 
 Suppose we have invested some money in  fund which pays 5% (compound) interest per year, and we would like to know how long it takes for the value of the investment to double. 
