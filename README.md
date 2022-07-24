@@ -216,7 +216,7 @@ function[x] = gaussel(A,b)
 
 ```
 
-## References
+### References
 
 - Householder, A. S. (1958). Unitary triangularization of a nonsymmetric matrix. Journal of the ACM (JACM), 5(4), 339-342.
 - Moravitz Martin, C. D., & Van Loan, C. F. (2007). Solving real linear systems with the complex Schur decomposition. SIAM journal on matrix analysis and applications, 29(1), 177-183.
@@ -474,7 +474,7 @@ r_2=1-ee/vy;
 - Koenker, R., & Xiao, Z. (2002). Inference on the quantile regression process. Econometrica, 70(4), 1583-1612.
 - Dagenais, M. G. (1969). A threshold regression model. Econometrica: Journal of Econometric Society, 193-203.
 
-### Task 1
+## Task 1
 
 Run the above coding procedure step-by-step while checking the implementation of the steps required for the econometric identification of the threshold variable, using a suitable dataset of your choice. Moreover, write the Matlab code that corresponds to an appropriate statistical testing procedure to assess the presence of threshold effects based on an underline data generating process. Lastly, write the coding procedure for a small Monte Carlo simulation study in order to evaluate the empirical size performance of the testing hypothesis under examination. Notice that Matlab output should look like this: 
 
