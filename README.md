@@ -146,11 +146,12 @@ shadedTimeSeries(date, y(swindow0:end), ind95, '',{''}, [0.8 0.8 0.3],10);
 
 % References: Phillips, Shi and Yu (2015a,b)
 
-% Phillips, P. C., Shi, S., & Yu, J. (2015a). Testing for multiple bubbles: Limit theory of real‐time detectors. International Economic Review, 56(4), 1079-1134.
-
-% Phillips, P. C., Shi, S., & Yu, J. (2015b). Testing for multiple bubbles: Historical episodes of exuberance and collapse in the S&P 500. International economic review, 56(4), 1043-1078.
-
 ```
+
+### References
+
+- Phillips, P. C., Shi, S., & Yu, J. (2015a). Testing for multiple bubbles: Limit theory of real‐time detectors. International Economic Review, 56(4), 1079-1134.
+- Phillips, P. C., Shi, S., & Yu, J. (2015b). Testing for multiple bubbles: Historical episodes of exuberance and collapse in the S&P 500. International economic review, 56(4), 1043-1078.
 
 > Matlab has also powerful graphical interface as well as many functionalities when plotting time series data. 
 
