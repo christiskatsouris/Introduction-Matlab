@@ -125,7 +125,23 @@ end
 
 # 1.2. Using Matrices and Vectors
 
-In cases that the coding procedure has several replications, for instance in Monte Carlo simulation studies or when applying bootstrap resampling methods, the initial step is to initialize the vector and matrices to store the results of the simulation design under examination. 
+- In cases that the coding procedure has several replications, for instance in Monte Carlo simulation studies or when applying bootstrap resampling methods, the initial step is to initialize the vector and matrices to store the results of the simulation design under examination. 
+
+- For example, we can predefine the dimensions of matrices to store the values of estimators. Since these values will be stimated from an iterative procedure a good practise is to assign 'null' values to these matrices before proceeding to the computation step. 
+
+```Matlab
+
+% Simulation size
+nsim = 1000;             
+
+% Estimators
+TSLS_estimator1  = zeros(d, nsim);    % 2SLS Estimator 1
+TSLS_estimator2  = zeros(d, nsim);    % 2SLS Estimator 2
+optIV_estimator  = zeros(d, nsim);    % Optimal IV Estimator
+
+```
+
+We can also define matrices with fixed values. 
 
 ```Matlab
 
