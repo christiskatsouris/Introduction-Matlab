@@ -122,7 +122,7 @@ c = DGP(3,:);
 
 ```
 
-# 1.3. Importing/Reading data in Matlab
+# 1.3. Importing and Exporting data in Matlab
 
 ```Matlab
 %% Examples
@@ -133,6 +133,9 @@ date=datenum(cell2mat(data(2:end,1)),'dd/mm/yyyy');
 
 
 ```
+
+<img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/graph.jpg" width="650"/>
+
 
 # 2. Numerical Analysis/Optimization Examples
 
