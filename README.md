@@ -273,6 +273,10 @@ Consider constructing a function that obtains the parameter estimates from a qua
 
 ```Matlab
 
+% Fix random seed for replication
+seed = 1234;
+rng(seed)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function beta = quantile_regression(y,x,k)
 
