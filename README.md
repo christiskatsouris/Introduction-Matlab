@@ -125,16 +125,32 @@ c = DGP(3,:);
 # 1.3. Importing and Exporting data in Matlab
 
 ```Matlab
-%% Examples
 
+%% Importa dataset
 load('SP500.mat');
-data=raw;
-date=datenum(cell2mat(data(2:end,1)),'dd/mm/yyyy');
+data = raw;
+date = datenum(cell2mat(data(2:end,1)),'dd/mm/yyyy');
 
+%% Parameter settings for the PSY test
+y  = pd;
+T  = length(y);
+r0 = 0.01+1.8/sqrt(T);
+swindow0 = floor(r0*T);
+dim = T-swindow0+1;
+
+%% Display outputs
+date = date(swindow0:end);
+
+figure(2);
+shadedTimeSeries(date, y(swindow0:end), ind95, '',{''}, [0.8 0.8 0.3],10);
+
+% References: Phillips, Shi and Yu (2015a,b)
 
 ```
 
-<img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/graph.jpg" width="650"/>
+> Matlab has also powerful graphical interface as well as many functionalities when plotting time series data. 
+
+<img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/graph.jpg" width="750"/>
 
 
 # 2. Numerical Analysis/Optimization Examples
