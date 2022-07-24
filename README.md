@@ -126,6 +126,8 @@ c = DGP(3,:);
 
 Matlab allows various formats of datasets to be imported for the purpose of data analysis. The most common one has the extension '.mat' which correspond to data stored in Matlab format.  
 
+In the example below we employ the dataset 'SP500.mat' which is available as Supplementary Material to the published papers of Phillips, Shi and Yu (2015a,b). The aim of this example is to get familiar with importing datasets in Matlab as well with display outputs based on an econometric procedure.
+
 ```Matlab
 
 %% Importa dataset
