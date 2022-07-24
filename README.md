@@ -124,7 +124,7 @@ c = DGP(3,:);
 
 ```
 
-# 1.3. Importing datasets and Exporting outputs using Matlab
+# 1.3. Importing datasets and Exporting outputs 
 
 Matlab allows various formats of datasets to be imported for the purpose of data analysis. The most common one has the extension '.mat' which correspond to data stored in Matlab format.  
 
