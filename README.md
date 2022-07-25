@@ -584,9 +584,9 @@ $\textbf{[3]}$  Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU
 Γεωργίου, Γ., and Χ. Ξενοφώντος. "Εισαγωγή στο MATLAB." Τμήμα Μαθηματικών και Στατιστικής του Πανεπιστημίου της Κύπρου, Σημειώσεις Εαρινού Εξαμήνου 2007, σελ. 1 306 (2007).
 
 
-# Historical Fact
+# Historical Background
 
-$\textbf{Stephan Banach}$ is widely regarded as one of the most influential mathematicians of the 20th century. He was a Polish, mainly self-taught mathematician, becoming a Professor on the 22th of July 1922 - 100 years ago!. He made major contributions to the theory of topological vector spaces, measure theory, integration, the theory of sets, orthogonal series and functional analysis. He is the author of the book: "Théorie des opérations linéaires" (Theory of Linear Operations), the first monograph on the general theory of functional analysis (see, wikipedia).    
+$\textbf{Stephan Banach}$ is widely regarded as one of the most influential mathematicians of the 20th century. He was a Polish, mainly self-taught mathematician, becoming a Professor on the 22th of July 1922 - 100 years ago! He made major contributions to the theory of topological vector spaces, measure theory, integration, the theory of sets, orthogonal series and functional analysis. He is the author of the book: "Théorie des opérations linéaires" (Theory of Linear Operations), the first monograph on the general theory of functional analysis (see, wikipedia).    
 
 
 # Disclaimer
