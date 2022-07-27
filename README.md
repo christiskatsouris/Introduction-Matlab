@@ -536,7 +536,7 @@ Z =
 
 # 4. Concluding Remarks
 
-Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, engineering, applied sciences and other fields. In this teaching page we mainly present some basic operations and functions in Matlab as well as explain briefly some issues related to econometric identification and the structure of Monte Carlo simulations. Overall, there are plethora of online resources for learning how to programme with Matlab as well as various estimation and computational problems worth checking their Matlab implementation or coding your own procedure. Lastly, following the aformentioned practises it can help to ensure the reproducibility of empirical results, especially on research papers (see, Kapoor and Narayanan (2022)).  
+Matlab is a computationally fast programming language which can be employed for various applications in statistics, econometrics, engineering, applied sciences and other fields. In this teaching page we mainly present some basic operations and functions in Matlab as well as explain briefly some issues related to econometric identification and the structure of Monte Carlo simulations. Overall, there are plethora of online resources for learning how to programme with Matlab as well as various estimation and computational problems worth checking their Matlab implementation or coding your own procedure. Lastly, following the aformentioned practices it can help to ensure the reproducibility of empirical results, especially on research papers (see, Kapoor and Narayanan (2022)).  
 
 # Appendix: Parallelism in Matlab
 
