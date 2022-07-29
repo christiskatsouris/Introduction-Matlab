@@ -23,8 +23,7 @@ In this teaching page, we begin by reviewing the syntax of loops and logical bra
 
 # 1.1. Loops and Logical Branching (Syntax)
 
-
-### The for loop
+## The for loop
 
 A simple form of such a loop is 
 
@@ -36,7 +35,7 @@ end
 
 ```
 
-### The if-elseif-else statement
+## The if-elseif-else statement
 
 A simple form of the if statement is 
 
@@ -63,7 +62,7 @@ else
 
 ```
 
-### The while loop
+## The while loop
 
 ```Matlab
 
@@ -73,7 +72,7 @@ end
 
 ```
 
-## Example 1.1
+### Example 1.1
 
 
 ```Matlab
@@ -92,7 +91,7 @@ end
 
 ```
 
-## Example 1.2
+### Example 1.2
 
 Suppose we have invested some money in  fund which pays 5% (compound) interest per year, and we would like to know how long it takes for the value of the investment to double. 
 
