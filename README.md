@@ -265,7 +265,7 @@ function[x] = gaussel(A,b)
 
 Constructing a function (i.e., a small program) in Matlab allow us to organise our coding procedure more efficiently. Furthermore, 'calling' functions in the main workflow is a good programming practice and permits to break-down a procedure into various estimation steps. 
 
-##  3.1. Syntax
+##  3.1. Syntax of Functions
 
 For the Syntax see: https://uk.mathworks.com/help/matlab/ref/function.html 
 
@@ -304,7 +304,7 @@ A helpful programming practice to identify mistakes with either the coding proce
 
 ```
 
-## Example 3.1
+### Example 3.1
 
 Write a function that produces a sequence of values with inputs:  a = initial value in sequence, b = increment of values, and c = number of values in the sequence.   
 
@@ -319,8 +319,9 @@ y = seqa(a,b,c)
 
 ```
 
+## 3.2. Econometric Model Fitting and Estimation 
 
-## Example 3.2
+### Example 3.2
 
 Consider constructing a function that obtains the parameter estimates from a quantile regression model.    
 
@@ -375,88 +376,7 @@ end % end-of-function
 
 ```
 
-##  Example 3.3 (Simulation Experiments)
-
-In particular by plotting the error sequence as defined below we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
-
-```Matlab
-
-% Choose substreams for reproducibility
-set(stream,'Substream',r);
-RandStream.setGlobalStream(stream);
-
-% Parameters
-N    = 250;
-beta = 0.8;
-
-% Simulate a regressor Z such that 
-Z = 1 + beta*normcdf( randn(N,1) );  
-
-% Simulate an error sequence
-U = randn(N,1); 
-
-plot(U)
-
-```
-
-
-## Example 3.4
-
-Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
-
-```Matlab
-
-parfor r = 1:Rep  % Loop over MC replications (columns first)
-
-   % Define the matrices to store the data
-   Tn_matrix = Tn(:,1:end);              
-
-   for j = 1:D   % Loop over designs where D = {1,2,3} 
-        %%%%%%%%%%%%%%%%%%%%%% Compute the Statistic %%%%%%%%%%%%%%%%%%%%%%
-        % Generate the outcome for the current DGP
-        Y = a(j)*Z - b(j)*normpdf(c(j)*Z) + U; 
-    
-        % Next based on some econometric method, estimate the test statistic Tn 
-        %%%%%%%%%%%%%%%%
-        % Example below: 
-        %%%%%%%%%%%%%%%%
-    
-        % Coefficient
-        Hatbeta  = Hn\Y;   
-        Hattheta = X*Hatbeta;     % Unconstrained estimator
-        HatU = Y - Hn*Hatbeta;    % Residuals 
-
-        % Compute the test statistic 
-        % The calcuation of the test statistic goes here!  
- 
-        %%%%%%%%%%%%% Obtain Critical Value through Bootstrap %%%%%%%%%%%%%
-        BootW = randn(N,Boot);  % Bootstrap weights 
-
-        % The calcuation of the bootsrap test statistic goes here!  
-        for i=1:Boot
-           
-           %%%[BOOTSTRAP PROCEDURE GOES HERE]%%%
-           
-        end
-
-        % Store the bootstrapped test statistic Tn 
-       
-          %%%[BOOTSTRAPPED TEST STATISTIC GOES HERE]%%%
-       
-       %%%%%%%%%%%%%%%%%%%%%%%% Record Rejection %%%%%%%%%%%%%%%%%%%%%%%%%
-       Rej(j,r) = ( test_statistic > quantile(BStats,1-alpha));     
-    end
-end
-        
-%%%%%%%%%%%%% Compute the Empirical Reject Rates %%%%%%%%%%%%%%%%%
-Rej = mean(Rej,2);    
-
-% Reference: A projection framework for testing shape restrictions that form convex cones.         
-```
-
-## 3.2. Econometric Model Fitting and Estimation 
-
-## Example 3.5
+### Example 3.3
 
 The threshold regression model is commonly employed when modelling regime-specific dynamics based on economic data. However, the implementation of the model requires to estimate the unknown threshold variable. 
 
@@ -520,6 +440,87 @@ r_2=1-ee/vy;
 
 % Reference: Factor Augmented Regression with Threshold Effects 
 
+```
+
+## Simulation Experiments and Bootstrap Resampling Method 
+
+###  Example 3.4 
+
+```Matlab
+
+% Choose substreams for reproducibility
+set(stream,'Substream',r);
+RandStream.setGlobalStream(stream);
+
+% Parameters
+N    = 250;
+beta = 0.8;
+
+% Simulate a regressor Z such that 
+Z = 1 + beta*normcdf( randn(N,1) );  
+
+% Simulate an error sequence
+U = randn(N,1); 
+
+plot(U)
+
+```
+
+Notice that by plotting the error sequence as defined above we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
+
+
+## Example 3.5
+
+Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
+
+```Matlab
+
+parfor r = 1:Rep  % Loop over MC replications (columns first)
+
+   % Define the matrices to store the data
+   Tn_matrix = Tn(:,1:end);              
+
+   for j = 1:D   % Loop over designs where D = {1,2,3} 
+        %%%%%%%%%%%%%%%%%%%%%% Compute the Statistic %%%%%%%%%%%%%%%%%%%%%%
+        % Generate the outcome for the current DGP
+        Y = a(j)*Z - b(j)*normpdf(c(j)*Z) + U; 
+    
+        % Next based on some econometric method, estimate the test statistic Tn 
+        %%%%%%%%%%%%%%%%
+        % Example below: 
+        %%%%%%%%%%%%%%%%
+    
+        % Coefficient
+        Hatbeta  = Hn\Y;   
+        Hattheta = X*Hatbeta;     % Unconstrained estimator
+        HatU = Y - Hn*Hatbeta;    % Residuals 
+
+        % Compute the test statistic 
+        % The calcuation of the test statistic goes here!  
+ 
+        %%%%%%%%%%%%% Obtain Critical Value through Bootstrap %%%%%%%%%%%%%
+        BootW = randn(N,Boot);  % Bootstrap weights 
+
+        % The calcuation of the bootsrap test statistic goes here!  
+        for i=1:Boot
+           
+           %%%[BOOTSTRAP PROCEDURE GOES HERE]%%%
+           
+        end
+
+        % Store the bootstrapped test statistic Tn 
+       
+          %%%[BOOTSTRAPPED TEST STATISTIC GOES HERE]%%%
+       
+       %%%%%%%%%%%%%%%%%%%%%%%% Record Rejection %%%%%%%%%%%%%%%%%%%%%%%%%
+       Rej(j,r) = ( test_statistic > quantile(BStats,1-alpha));     
+    end
+end
+        
+%%%%%%%%%%%%% Compute the Empirical Reject Rates %%%%%%%%%%%%%%%%%
+Rej = mean(Rej,2);    
+
+% Reference: A projection framework for testing shape restrictions that form convex cones.         
 ```
 
 ### References
