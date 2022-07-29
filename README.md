@@ -365,7 +365,9 @@ end % end-of-function
 
 ```
 
-##  3.2. Simulation Experiments Examples
+##  Example 3.3 (Simulation Experiments)
+
+In particular by plotting the error sequence as defined below we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
 
 ```Matlab
 
@@ -387,10 +389,8 @@ plot(U)
 
 ```
 
-By plotting the error sequence we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
 
-
-## Example 3.3
+## Example 3.4
 
 Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
 
@@ -444,9 +444,9 @@ Rej = mean(Rej,2);
 % Reference: A projection framework for testing shape restrictions that form convex cones.         
 ```
 
-## 3.3. Econometric Model Fitting and Estimation Examples 
+## 3.2. Econometric Model Fitting and Estimation Examples 
 
-## Example 3.4
+## Example 3.5
 
 The threshold regression model is commonly employed when modelling regime-specific dynamics based on economic data. However, the implementation of the model requires to estimate the unknown threshold variable. 
 
