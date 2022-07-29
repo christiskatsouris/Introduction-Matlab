@@ -468,7 +468,7 @@ plot(U)
 Notice that by plotting the error sequence as defined above we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
 
 
-## Example 3.5
+### Example 3.5
 
 Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
 
