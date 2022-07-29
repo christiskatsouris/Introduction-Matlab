@@ -575,7 +575,7 @@ matlabpool('close');
 
 # Reading List
 
-$\textbf{On Econometric Theory and Applications:}$ 
+### On Econometric Theory and Applications: 
 
 $\textbf{[1]}$ Hamilton, J. D. (1994). Time Series Analysis. Princeton University Press.
 
@@ -587,7 +587,7 @@ $\textbf{[4]}$ Belsley, D. A., & Kontoghiorghes, E. (Eds.). (2009). Handbook of 
 
 $\textbf{[5]}$ Corbae, D., Stinchcombe, M. B., & Zeman, J. (2009). An introduction to mathematical analysis for economic theory and econometrics. Princeton University Press.
 
-$\textbf{On Matrix Algebra and Numerical Methods:}$ 
+### On Matrix Algebra and Numerical Methods:
 
 $\textbf{[1]}$  Epperson, J. F. (2021). An Introduction to Numerical Methods and Analysis. John Wiley & Sons.
 
@@ -595,7 +595,7 @@ $\textbf{[2]}$  Kharab, A., & Guenther, R. (2018). An Introduction to Numerical 
 
 $\textbf{[3]}$  Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU press.
 
-Other:
+### Other:
 
 Kapoor, S., & Narayanan, A. (2022). Leakage and the Reproducibility Crisis in ML-based Science. arXiv preprint arXiv:2207.07048.
 
