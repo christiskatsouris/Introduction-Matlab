@@ -306,8 +306,18 @@ A helpful programming practice to identify mistakes with either the coding proce
 
 ## Example 3.1
 
+Write a function that produces a sequence of values with inputs:  a = initial value in sequence, b = increment of values, and c = number of values in the sequence.   
 
+```Matlab
 
+function seq=seqa(a,b,c);
+
+seq=(a:b:(a+b*(c-1)))';
+return;
+
+y = seqa(a,b,c)
+
+```
 
 
 ## Example 3.2
@@ -444,7 +454,7 @@ Rej = mean(Rej,2);
 % Reference: A projection framework for testing shape restrictions that form convex cones.         
 ```
 
-## 3.2. Econometric Model Fitting and Estimation Examples 
+## 3.2. Econometric Model Fitting and Estimation 
 
 ## Example 3.5
 
