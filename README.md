@@ -1,11 +1,11 @@
 # Introduction-Matlab
 Teaching Page (Drafted July 2022).
 
-TIP: Learn, Unlearn & Relearn.
-
 ### Motivation: 
 
 An interesting article from the [World Economic Forum](https://www.weforum.org/) is: [Why learning to unlearn prepares us for transformative change](https://www.weforum.org/agenda/2022/02/learning-to-unlearn-exponetially/). Similar principles apply when learning a new programming language or when applying the "asymptotic theory laws" you learn in an Econometric Theory class in order to derive the limit theory of statistics and estimators. In other words, revising what you know, and building on existing acquisition of knowledge is a good practise for programming as well. 
+
+TIP: Learn, Unlearn & Relearn.
 
 # 1. Basics of Matlab
 
