@@ -71,7 +71,7 @@ end
 
 ```
 
-## Example 0
+## Example 1.1
 
 
 ```Matlab
@@ -90,7 +90,7 @@ end
 
 ```
 
-## Example 1
+## Example 1.2
 
 Suppose we have invested some money in  fund which pays 5% (compound) interest per year, and we would like to know how long it takes for the value of the investment to double. 
 
@@ -163,7 +163,7 @@ c = DGP(3,:);
 
 Matlab allows various formats of datasets to be imported for the purpose of data analysis. The most common one has the extension '.mat' which correspond to data stored in Matlab format.  
 
-## Example 2
+## Example 1.3
 
 In the example below we employ the dataset 'SP500.mat' which is available as Supplementary Material to the published papers of Phillips, Shi and Yu (2015a,b). The aim of this example is to get familiar with importing datasets in Matlab as well with display outputs based on an econometric procedure.
 
@@ -302,7 +302,13 @@ A helpful programming practice to identify mistakes with either the coding proce
 
 ```
 
-## Example 3
+## Example 3.1
+
+
+
+
+
+## Example 3.2
 
 Consider constructing a function that obtains the parameter estimates from a quantile regression model.    
 
@@ -382,7 +388,7 @@ plot(U)
 By plotting the error sequence we can observe that the disturbance term follows the covariance stationarity condition. Further formal statistical hypothesis testing can be applied in order to evaluate various econometric assumptions regarding the error term or the residual term from a fitted regression model.  
 
 
-## Example 4
+## Example 3.3
 
 Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
 
@@ -438,7 +444,7 @@ Rej = mean(Rej,2);
 
 ## 3.3. Econometric Model Fitting and Estimation Examples 
 
-## Example 5
+## Example 3.4
 
 The threshold regression model is commonly employed when modelling regime-specific dynamics based on economic data. However, the implementation of the model requires to estimate the unknown threshold variable. 
 
