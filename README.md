@@ -441,7 +441,7 @@ r_2=1-ee/vy;
 
 ```
 
-## Simulation Experiments and Bootstrap Resampling Method 
+## 3.3 Simulation Experiments and Bootstrap Resampling Method 
 
 ###  Example 3.4 
 
