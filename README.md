@@ -7,6 +7,11 @@ An interesting article from the [World Economic Forum](https://www.weforum.org/)
 
 TIP: Learn, Unlearn & Relearn.
 
+### The Future of Work Blogs:
+
+- https://www.futureofworkhub.info/#welcome 
+
+
 # 1. Basics of Matlab
 
 To begin with, Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts. A related reference is: 
