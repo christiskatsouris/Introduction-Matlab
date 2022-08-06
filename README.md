@@ -9,7 +9,7 @@ TIP: Learn, Unlearn & Relearn.
 
 ### The Future of Work Blogs:
 
-- https://www.oecd.org/future-of-work/
+- [OECD: The Future of Work](https://www.oecd.org/future-of-work/)
 - [The Oxford Martin Programme on the Future of Work](https://www.oxfordmartin.ox.ac.uk/future-of-work/)
 - https://www.futureofworkhub.info/#welcome 
 - https://www.mckinsey.com/featured-insights/future-of-work
