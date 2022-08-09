@@ -17,6 +17,7 @@ TIP: Learn, Unlearn & Relearn.
 - https://www.mckinsey.com/featured-insights/future-of-work
 - https://www2.deloitte.com/us/en/insights/focus/technology-and-the-future-of-work.html 
 
+- [Transformation Leadership](https://www.sbs.ox.ac.uk/research/research-areas/organisation-studies/transformation-leadership-humanscentre)
 
 # 1. Basics of Matlab
 
