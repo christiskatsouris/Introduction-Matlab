@@ -31,7 +31,7 @@ TIP: Learn, Unlearn & Relearn.
 
 # 1. Basics of Matlab
 
-To begin with, Matlab is an Object-Oriented Programming Language which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts. A related reference is: 
+To begin with, Matlab is an [Object-Oriented Programming Language](https://en.wikipedia.org/wiki/Object-oriented_programming) which has faster computational capabilities in comparison to other Statistical Software. The best way to master a programming language such as Matlab or C++ is to consider reviewing some key concepts. A related reference is: 
 
 - Tenenbaum, A. M., & Augenstein, M. J. (1986). Data structures using Pascal. Prentice-Hall, Inc.
 
