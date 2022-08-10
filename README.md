@@ -619,7 +619,9 @@ $\textbf{[3]}$  Golub, G. H., & Van Loan, C. F. (2013). Matrix computations. JHU
 
 ### Other:
 
-Kapoor, S., & Narayanan, A. (2022). Leakage and the Reproducibility Crisis in ML-based Science. arXiv preprint arXiv:2207.07048.
+- Kapoor, S., & Narayanan, A. (2022). Leakage and the Reproducibility Crisis in ML-based Science. arXiv preprint arXiv:2207.07048.
+
+- Zheng, Z., Zhang, J., Kong, Y., & Wu, Y. (2018). Scalable Inference for Massive Data. Procedia Computer Science, 129, 81-87.
 
 ## Greek Bibliography:
 
