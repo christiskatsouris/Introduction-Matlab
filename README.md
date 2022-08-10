@@ -13,6 +13,8 @@ TIP: Learn, Unlearn & Relearn.
 
 - [The Oxford Martin Programme on the Future of Work](https://www.oxfordmartin.ox.ac.uk/future-of-work/)
 
+-  [Creative Destruction Lab, Saïd Business School Oxford](https://www.sbs.ox.ac.uk/research/centres-and-initiatives/creative-destruction-lab-oxford)
+ 
 - https://www.futureofworkhub.info/#welcome 
 
 - https://www.thersa.org/future-of-work
