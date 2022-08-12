@@ -1,11 +1,12 @@
 # Introduction-Matlab
+
 Teaching Page (Drafted July 2022).
+
+TIP: Learn, Unlearn & Relearn.
 
 ### Motivation: 
 
 An interesting article from the [World Economic Forum](https://www.weforum.org/) is: [Why learning to unlearn prepares us for transformative change](https://www.weforum.org/agenda/2022/02/learning-to-unlearn-exponetially/). Similar principles apply when learning a new programming language or when applying the "asymptotic theory laws" you learn in an Econometric Theory class in order to derive the limit theory of statistics and estimators. In other words, revising what you know, and building on existing acquisition of knowledge is a good practise for programming as well. 
-
-TIP: Learn, Unlearn & Relearn.
 
 ### The Future of Work Blogs:
 
@@ -28,6 +29,10 @@ TIP: Learn, Unlearn & Relearn.
 - https://www2.deloitte.com/us/en/insights/focus/technology-and-the-future-of-work.html 
 
 - [Transformation Leadership](https://www.sbs.ox.ac.uk/research/research-areas/organisation-studies/transformation-leadership-humanscentre)
+
+### Some seemingly unrelated references
+
+- Furman, J. L., & Stern, S. (2011). Climbing atop the shoulders of giants: The impact of institutions on cumulative research. American Economic Review, 101(5), 1933-63.
 
 # 1. Basics of Matlab
 
