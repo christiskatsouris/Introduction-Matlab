@@ -30,9 +30,10 @@ An interesting article from the [World Economic Forum](https://www.weforum.org/)
 
 - [Transformation Leadership](https://www.sbs.ox.ac.uk/research/research-areas/organisation-studies/transformation-leadership-humanscentre)
 
-### Some seemingly unrelated references
+### Some seemingly unrelated references:
 
 - Furman, J. L., & Stern, S. (2011). Climbing atop the shoulders of giants: The impact of institutions on cumulative research. American Economic Review, 101(5), 1933-63.
+- Hsieh, C. T., Hurst, E., Jones, C. I., & Klenow, P. J. (2019). The allocation of talent and us economic growth. Econometrica, 87(5), 1439-1474.
 
 # 1. Basics of Matlab
 
