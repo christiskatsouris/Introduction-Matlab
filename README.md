@@ -562,7 +562,7 @@ permutationTest(sample1, sample2, 10000, 'plotresult', 1);
 
 ```
 
-<img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/perm_test_plot.fig" width="800"/>
+<img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/perm_distribution_density.jpeg" width="500"/>
 
 
 ### References
