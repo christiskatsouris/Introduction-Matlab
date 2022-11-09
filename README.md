@@ -591,6 +591,25 @@ permutationTest(sample1, sample2, 10000, 'plotresult', 1);
 <img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/perm_distribution_density.jpg" width="500"/>
 
 
+### Example 3.7
+
+Lastly in this example, we demonstrate how to simulate a data generating process for the case of a predictive regression model with 
+a unit root representation. Specifically, this is the case in which we assume that the dependent variable, lets say $y_t$ (e.g., stock retunrs)
+at time $t$ can be explained using some financial variables (predictors) at time (t-1), denoted with $x_{t-1}$
+
+```Matlab
+
+
+
+
+
+
+
+```
+
+
+
+
 ### References
 
 - Hsieh, Y. W., Shi, X., & Shum, M. (2022). Inference on estimators defined by mathematical programming. Journal of Econometrics, 226(2), 248-268.
