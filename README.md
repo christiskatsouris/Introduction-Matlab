@@ -469,7 +469,7 @@ r_2=1-ee/vy;
 
 ```
 
-## 3.3 Simulation Experiments and Bootstrap Resampling Method 
+## 3.3 Simulation Studies and Bootstrap Resampling Method 
 
 ###  Example 3.4 
 
