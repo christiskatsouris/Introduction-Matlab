@@ -497,16 +497,6 @@ Notice that by plotting the error sequence as defined above we can observe that 
 
 ### Example 3.5
 
-```Matlab
-
-
-
-
-
-```
-
-### Example 3.6
-
 Suppose the above regressor and error term are the components of an econometric model of interest or in other words the data generating process (DGP). Now assume that we are interested to evaluate the empirical size of a test statistic Tn based on the underline DGP. In addition, we have 3 different experimental designs and in each case we shall compute and store the p-value of the test statistic that corresponds to the number of replications used in the simulation study. Following good programming and good parallelism practices in Matlab we shall implement the aformentioned procedure as below. 
 
 ```Matlab
@@ -558,6 +548,22 @@ Rej = mean(Rej,2);
 
 % Reference: A projection framework for testing shape restrictions that form convex cones.         
 ```
+
+### Example 3.6
+
+Another useful resampling method which can be implemented in Matlab for the purpose of constructing hypothesis testing, 
+is the permutation test for comparing the equality of means of two distribution functions. 
+
+```Matlab
+
+sample1 = randn(1,5000);
+sample2 = randn(1,5000) + .1;
+permutationTest(sample1, sample2, 10000, 'plotresult', 1);
+
+```
+
+<img src="https://github.com/christiskatsouris/Introduction-Matlab/blob/main/Data/perm_test_plot.fig" width="800"/>
+
 
 ### References
 
