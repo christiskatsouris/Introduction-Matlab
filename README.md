@@ -598,7 +598,7 @@ a unit root representation. Specifically, this is the case in which we assume th
 at time $t$ can be explained using some financial variables (predictors) at time $(t-1)$, denoted with $x_{t-1}$. Furthermore, a well-known 
 stylized fact in the financial economics literature (i.e., stock return predictability) is that such regressors exhibit high persistence. 
 Therefore, in order to account for this feature, a commonly used approach is to employ Local-Unit-Root specification for the autocorrelation
-coefficient under the assumption that predictors are modelled via a possibly nonstationary autoregressive model. The Matlab code below
+coefficient under the assumption that predictors are modelled via a possibly nonstationary autoregressive model. The Matlab code
 demonstrates how to obtain simulated values for the pair $( y_t, x_{t-1})$ without imposing any restrictions on the parameters of 
 the predictive regression model. Consequently, this allows us to then consider statistical procedures under certain restrictions of the 
 parameter space of the model coefficients - which is beyond the scope of this example. 
