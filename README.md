@@ -595,20 +595,49 @@ permutationTest(sample1, sample2, 10000, 'plotresult', 1);
 
 Lastly in this example, we demonstrate how to simulate a data generating process for the case of a predictive regression model with 
 a unit root representation. Specifically, this is the case in which we assume that the dependent variable, lets say $y_t$ (e.g., stock retunrs)
-at time $t$ can be explained using some financial variables (predictors) at time (t-1), denoted with $x_{t-1}$
+at time $t$ can be explained using some financial variables (predictors) at time $(t-1)$, denoted with $x_{t-1}$. Furthermore, a well-known 
+stylized fact in the financial economics literature (i.e., stock return predictability) is that such regressors exhibit high persistence. 
+Therefore, in order to account for this feature, a commonly used approach is to employ Local-Unit-Root specification for the autocorrelation
+coefficient under the assumption that predictors are modelled via a possibly nonstationary autoregressive model. The Matlab code below
+exactly demonstrates how to obtain simulated values for the pair $( y_t, x_{t-1})$ without imposing any restrictions on the parameters of 
+the predictive regression model. Consequently, this allows us to then consider statistical procedures under certain restrictions of the 
+parameter space of the model coefficients - which is beyond the scope of this example. 
 
 ```Matlab
 
+function [ysim, xsim] = simulate_null( n , beta1, beta2 );
 
+outputVector = [];
 
+c1 = 1;
+c2 = 5;
+x1 = zeros(n,1);
+x2 = zeros(n,1);
 
+mu    = [0 0 0];
+Sigma = [1 -0.85 0.35 ; -0.85 1 0.15 ; 0.35 0.15 1];
+ 
+innov_e = mvnrnd(mu,Sigma,n);
+u       = innov_e(:,1);
+v1      = innov_e(:,2);
+v2      = innov_e(:,3);
 
+for i = 2:n;
+   
+  x1(i,1) = ( 1 - c1/n )*x1(i-1,1) + v1(i,1);
+  x2(i,1) = ( 1 - c2/n )*x2(i-1,1) + v2(i,1);
+  y(i,1)  =  1 + beta1*x1(i-1,1) + beta2*x2(i-1,1) + u(i,1);
+    
+end
 
+ysim = y;
+xsim = [x1(:,1) x2(:,1)];
+
+[ysim , xsim ];
+
+end
 
 ```
-
-
-
 
 ### References
 
